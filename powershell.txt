@@ -1,1 +1,14 @@
 
+SYNTAX
+    Get-Command [[-Name] <String[]>] [[-ArgumentList] <Object[]>] [-All] [-CommandType
+    {Alias | Function | Filter | Cmdlet | ExternalScript | Application | Script |
+    Workflow | Configuration | All}] [-FullyQualifiedModule <ModuleSpecification[]>]
+    [-ListImported] [-Module <String[]>] [-ParameterName <String[]>] [-ParameterType
+    <PSTypeName[]>] [-ShowCommandInfo] [-Syntax] [-TotalCount <Int32>]
+    [<CommonParameters>]
+
+    Get-Command [[-ArgumentList] <Object[]>] [-All] [-FullyQualifiedModule
+    <ModuleSpecification[]>] [-ListImported] [-Module <String[]>] [-Noun <String[]>]
+    [-ParameterName <String[]>] [-ParameterType <PSTypeName[]>] [-ShowCommandInfo]
+    [-Syntax] [-TotalCount <Int32>] [-Verb <String[]>] [<CommonParameters>]
+    
